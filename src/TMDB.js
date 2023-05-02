@@ -69,4 +69,7 @@ export const TMDB = {
 }
 
 export default TMDB;
-export const TMDB_API_KEY = process.env.REACT_APP_TMDB_API_KEY
+// process env not working on vercel hosting
+// export const TMDB_API_KEY = process.env.REACT_APP_TMDB_API_KEY
+
+export const TMDB_API_KEY = "a78ced916b4032a8d09202d8e92d3807"
