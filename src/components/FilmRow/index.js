@@ -20,9 +20,9 @@ const FilmRow = (props) => {
           <h3>{props.title}</h3>
           <p>{props.release_date.substring(0, 4)}</p>
           <div className="actions">
-            <button className="action">
+            {/* <button className="action">
               <span className="material-icons">add_to_queue</span>
-            </button>
+            </button> */}
 
 
             {/* <button className="action">

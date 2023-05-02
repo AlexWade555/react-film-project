@@ -56,10 +56,10 @@ function FilmLibrary() {
             ALL
             <span className="section-count">{filmMap.length}</span>
           </button>
-          <button className="film-list-filter">
+          {/* <button className="film-list-filter">
             FAVES
             <span className="section-count">{filmMap.filter((item) => item.isFav === true).length}</span>
-          </button>
+          </button> */}
         </div>
         <div className="film-list-year">
           <select className='year-dropdown' onChange={(year) => handleYear(year)}>
